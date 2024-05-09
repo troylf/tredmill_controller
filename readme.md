@@ -1,3 +1,16 @@
+## Controller
+
+Controller Design: Arduino Nano
+
+https://www.amazon.com/gp/product/B0713XK923/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+
+| Controller | Wires                        | Tredmill Connector |
+| ---------- | ---------------------------- | ------------------ |
+| D11        | Blue                         | Blue               |
+| D2         | Green                        | Green              |
+| Vin        | Yellow -> Power Board -> Red | Red                |
+| Gnd        | Black                        | Black              |
+
 ## Tredmill Connector
 * HD2- This eight wire connection attaches the controller to the console. Each wire carries the following voltage signal: 
   * BLACK- (Two wires) These are the ground wires for the console. All other voltages taken on the 8-wire harness are in reference to either of these wires. Note: On the MC-2100SDI, the second Black wire (the one next to Violet) carries a very small pulsing voltage the console monitors to count the number of steps taken by the user. 
@@ -8,4 +21,3 @@
   * YELLOW- This wire carries a 3.5–5 VDC signal to the power board to cause the power board to send 120 VAC to the incline motor to decrease the incline setting of the treadmill. This voltage should only be present when the incline is being decreased. 
   * VIOLET- This wire carries the incline sensor signal to the console This is a pulsing 0, 5 VDC signal as the incline is moving. When the incline is at rest, this voltage may measure either 0 VDC or 5 VDC.
 
- 
